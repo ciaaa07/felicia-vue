@@ -37,7 +37,9 @@
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
   <button type="submit" class="btn btn-secondary me-3">Register</button> 
-  <button type="reset" class="btn btn-dark">Reset</button>
+  <button type="reset" class="btn btn-dark">Reset</button><br>
+  <router-link :to="{name : 'login'}" class="ms-1"> Login</router-link>
+  <router-link :to="{path : '/'}"> Home</router-link>
 </form>
     </div>
 </template>
