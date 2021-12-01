@@ -1,5 +1,6 @@
 <template>
-  <div class="container p-5 my-5 bg-dark text-white">
+  <div class="hello">
+    <div class="container p-5 my-5 bg-dark text-white">
   <img src="profile.jpg" class="float-start" alt="Contact" height="75" width="100">
   <br><br>
   <h2 class="text-center">ABOUT ME</h2>
@@ -9,7 +10,7 @@
     Saya adalah seorang Mahasiswi dari Universitas MDP Palembang, jurusan Informatika.
     Saya tinggal di Palembang bersama keluarga saya, yang terdiri dari Papa, Mama, dan adik laki - laki saya. 
   </pre>
-</div>
+  </div>
   
   <div class="container p-5 my-5 border">
   <img src="biodata.jpg" class="float-start" alt="Biodata" height="75" width="75">
@@ -51,11 +52,9 @@
     Methodist 2 Vocational High School Palembang
     MDP University
   </pre>
+</div>
   </div>
-
   
-
-
 
 </template>
 
