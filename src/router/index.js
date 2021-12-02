@@ -20,6 +20,21 @@ const routes = [
         path: '/dashboard',
         name: 'dashboard',
         component: () => import('@/views/dashboard/Main.vue')
+    },
+    {
+        path: '/profile',
+        name: 'profile',
+        component: () => import('@/views/profile/Main.vue')
+    },
+    {
+        path: '/about',
+        name: 'about',
+        component: () => import('@/views/about/Main.vue')
+    },
+    {
+        path: '/users',
+        name: 'users',
+        component: () => import('@/views/users/Main.vue')
     }
 ];
 
